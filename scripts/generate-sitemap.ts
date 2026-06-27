@@ -3,7 +3,7 @@ import * as path from 'path';
 import { products, categories } from '../src/data/products';
 import { blogPosts } from '../src/data/blog';
 
-const BASE_URL = 'https://casefeelz.netlify.app';
+const BASE_URL = 'https://casefeelz.vercel.app/';
 
 // Helper to format date
 const getTodayDate = () => {
