@@ -7,7 +7,7 @@ interface SEOProps {
 }
 
 export function SEO({ title, description, canonical }: SEOProps) {
-  const siteUrl = 'https://casefeelz.netlify.app';
+  const siteUrl = 'https://casefeelz.vercel.app';
   const fullCanonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
 
   return (
