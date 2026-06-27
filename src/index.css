@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* New Official Colors */
+  --color-brand-midnight: #0F0F12;
+  --color-brand-charcoal: #1B1B21;
+  --color-brand-purple: #8B5CF6;
+  --color-brand-lavender: #C084FC;
+  --color-brand-pink: #F472B6;
+  --color-brand-aqua: #22D3EE;
+  
+  --color-brand-white: #FFFFFF;
+  --color-brand-gray: #F5F5F7;
+  --color-brand-silver: #E5E7EB;
+
+  /* Aliasing old class names so dark mode activates everywhere automatically */
+  --color-brand-offwhite: #0F0F12; 
+  --color-brand-coral: #F472B6; 
+
+  --font-sans: "Inter", "Poppins", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) rotate(auto); }
+  50% { transform: translateY(-20px) rotate(auto); }
+  100% { transform: translateY(0px) rotate(auto); }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-midnight);
+  color: var(--color-brand-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.glass-nav {
+  background: rgba(248, 248, 248, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
