@@ -405,7 +405,6 @@ export function Home() {
     <div className="flex flex-col min-h-screen bg-brand-midnight">
       <SEO 
         title="Home"
-        description="Shop premium CASEFEELZ Cases and Mobile Accessories. Discover unique phone covers and accessories at CaseFeelz."
         canonical="/"
       />
       {/* Hero Section */}
