@@ -21,7 +21,7 @@ export const products = [
   { id: 17, name: "CASEFEELZ Samsung Galaxy Z Fold 5 Slim", price: "₹3,499", category: "samsung", image: "https://images.unsplash.com/photo-1616410011236-7a42121dd981?q=80&w=600&auto=format&fit=crop", isNew: false },
   { id: 18, name: "CASEFEELZ Samsung Galaxy Z Flip 5 Ring", price: "₹1,999", category: "samsung", image: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=600&auto=format&fit=crop", isNew: true },
   { id: 19, name: "CASEFEELZ Samsung Galaxy A54 Transparent", price: "₹899", category: "samsung", image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=600&auto=format&fit=crop", isNew: false },
-  { id: 20, name: "CASEFEELZ Samsung Galaxy A34 Tough Armor", price: "₹1,499", category: "samsung", image: "", isNew: false },
+  { id: 20, name: "CASEFEELZ Samsung Galaxy A34 Tough Armor", price: "₹1,499", category: "samsung", image: "/images/rugged-armor.jpeg", isNew: false },
   
   // Motorola
   { id: 21, name: "CASEFEELZ Motorola Edge 50 Neo Carbon", price: "₹1,299", category: "motorola", image: "/images/duck-cover.webp", isNew: true },
@@ -30,7 +30,7 @@ export const products = [
   { id: 24, name: "CASEFEELZ Motorola Edge 40 Neo Leather", price: "₹1,899", category: "motorola", image: "https://images.unsplash.com/photo-1616410011236-7a42121dd981?q=80&w=600&auto=format&fit=crop", isNew: true },
   { id: 25, name: "CASEFEELZ Motorola Moto G54 5G Silicone", price: "₹799", category: "motorola", image: "https://images.unsplash.com/photo-1541560052-5e137f229371?q=80&w=600&auto=format&fit=crop", isNew: false },
   { id: 26, name: "CASEFEELZ Motorola Moto G73 Rugged TPU", price: "₹1,099", category: "motorola", image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=600&auto=format&fit=crop", isNew: false },
-  { id: 27, name: "CASEFEELZ Motorola Razr 40 Ultra Hinge Case", price: "₹3,499", category: "motorola", image: "/images/rugges-armor.jpeg", isNew: false },
+  { id: 27, name: "CASEFEELZ Motorola Razr 40 Ultra Hinge Case", price: "₹3,499", category: "motorola", image: "/images/rugged-armor.jpeg", isNew: false },
   { id: 28, name: "CASEFEELZ Motorola Razr 40 Clear Frame", price: "₹2,499", category: "motorola", image: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=600&auto=format&fit=crop", isNew: false },
   { id: 29, name: "CASEFEELZ Motorola Moto G14 Shockproof", price: "₹699", category: "motorola", image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=600&auto=format&fit=crop", isNew: true },
   { id: 30, name: "CASEFEELZ Motorola Moto E13 Gradient Color", price: "₹499", category: "motorola", image: "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?q=80&w=600&auto=format&fit=crop", isNew: false },
