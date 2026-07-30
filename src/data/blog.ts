@@ -1,4 +1,3 @@
-import phoneProtectionImg from "../assets/images/how-phone-cover-protect-your-device.jpg";
 export const blogPosts = [
   {
     id: "cute-phone-cover-ideas",
@@ -44,7 +43,7 @@ The best phone cover combines style, comfort, and durability. Explore different 
   category: "Protection",
   color: "text-brand-aqua",
   bg: "bg-brand-aqua/10",
-  image: phoneProtectionImg,
+  image: "/images/how-cases-protect-device.jpg",
   author: "CASEFEELZ Edit",
   date: "Jul 28, 2026",
   content: `
