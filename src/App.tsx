@@ -10,7 +10,8 @@ import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Products } from './pages/Products';
-import { Blog } from './pages/Blog';
+import { Blog } from './pages/BlogPage';
+import { BlogPost } from './pages/BlogPostPage';
 import { Contact } from './pages/Contact';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -44,6 +45,7 @@ export default function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/:id" element={<BlogPost />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>
             </main>
