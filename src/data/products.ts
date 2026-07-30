@@ -14,7 +14,7 @@ export const products = [
   // Samsung
   { id: 11, name: "CASEFEELZ Samsung Galaxy S24 Ultra Armor", price: "₹2,499", category: "samsung", image: "/images/cute-cover.webp", isNew: true },
   { id: 12, name: "CASEFEELZ Samsung Galaxy S23 Plus Designer", price: "₹1,799", category: "samsung", image: "https://images.unsplash.com/photo-1541560052-5e137f229371?q=80&w=600&auto=format&fit=crop", isNew: false },
-  { id: 13, name: "CASEFEELZ Samsung Galaxy S23 Ultra S-Pen", price: "₹2,999", category: "samsung", image: "/images/carbon-fiber.webp", isNew: false },
+  { id: 13, name: "CASEFEELZ Samsung Galaxy S23 Ultra S-Pen", price: "₹2,999", category: "samsung", image: "/images/cute-cover.webp", new: false },
   { id: 14, name: "CASEFEELZ Samsung Galaxy S22 Ultra Clear", price: "₹1,299", category: "samsung", image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=600&auto=format&fit=crop", isNew: false },
   { id: 15, name: "CASEFEELZ Samsung Galaxy S22 Plus Silicone", price: "₹1,099", category: "samsung", image: "https://images.unsplash.com/photo-1601593346740-925612772716?q=80&w=600&auto=format&fit=crop", isNew: false },
   { id: 16, name: "CASEFEELZ Samsung Galaxy S21 FE Shock", price: "₹1,699", category: "samsung", image: "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?q=80&w=600&auto=format&fit=crop", isNew: true },
