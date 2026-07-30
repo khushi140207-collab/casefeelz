@@ -42,7 +42,7 @@ The best phone cover combines style, comfort, and durability. Explore different 
     category: "Protection",
     color: "text-brand-aqua",
     bg: "bg-brand-aqua/10",
-    image: "https://images.unsplash.com/photo-1601784551446-20c9e07cd8d3?q=80&w=600&auto=format&fit=crop",
+    image: "how_phone_cover_protect_your_device_zqqstl",
     author: "CASEFEELZ Edit",
     date: "Jul 28, 2026",
     content: `
