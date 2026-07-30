@@ -1,3 +1,4 @@
+import phoneProtectionImg from "../assets/images/how-phone-cover-protect-your-device.jpg";
 export const blogPosts = [
   {
     id: "cute-phone-cover-ideas",
@@ -36,16 +37,17 @@ The best phone cover combines style, comfort, and durability. Explore different 
     `
   },
   {
-    id: "how-cases-protect-device",
-    title: "How Phone Cases Protect Your Device from Everyday Damage",
-    excerpt: "Your smartphone faces daily risks like accidental drops, scratches, and dust. A quality phone case helps reduce damage and keeps your device looking new for longer.",
-    category: "Protection",
-    color: "text-brand-aqua",
-    bg: "bg-brand-aqua/10",
-    image: "how_phone_cover_protect_your_device_zqqstl",
-    author: "CASEFEELZ Edit",
-    date: "Jul 28, 2026",
-    content: `
+  id: "how-cases-protect-device",
+  title: "How Phone Cases Protect Your Device from Everyday Damage",
+  excerpt:
+    "Your smartphone faces daily risks like accidental drops, scratches, and dust. A quality phone case helps reduce damage and keeps your device looking new for longer.",
+  category: "Protection",
+  color: "text-brand-aqua",
+  bg: "bg-brand-aqua/10",
+  image: phoneProtectionImg,
+  author: "CASEFEELZ Edit",
+  date: "Jul 28, 2026",
+  content: `
 How Phone Cases Protect Your Device from Everyday Damage
 
 Your smartphone faces daily risks like accidental drops, scratches, and dust. A quality phone case helps reduce damage and keeps your device looking new for longer. If you're searching for how phone cases protect your device from drops, here's why they matter.
@@ -69,8 +71,8 @@ Textured phone cases provide a secure grip, helping prevent accidental slips.
 Conclusion
 
 Using a protective phone case is one of the easiest ways to extend the life of your smartphone while keeping it stylish.
-    `
-  },
+  `
+},
   {
     id: "mistakes-when-buying-case",
     title: "5 Mistakes to Avoid When Buying a Phone Case",
